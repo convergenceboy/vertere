@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "denoland.vscode-deno",
+    "anthropic.claude-code",
+    "continue.continue",
+    "eamodio.gitlens",
+    "mikestead.dotenv",
+    "hashicorp.terraform"
+  ]
+}

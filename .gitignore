@@ -1,0 +1,12 @@
+node_modules/
+.deno/
+.venv/
+__pycache__/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+coverage/
