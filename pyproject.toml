@@ -1,0 +1,25 @@
+[project]
+name = "vertere"
+version = "0.1.0"
+description = "Fully local speech-to-text and text-to-speech web UI"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.0",
+    "faster-whisper",
+    "f5-tts",
+    "kokoro>=0.9.4",
+    "soundfile",
+    "pypdf",
+    "nvidia-cublas-cu12>=12.9.2.10",
+    "nvidia-cudnn-cu12>=9,<10",
+    "nvidia-cuda-runtime-cu12>=12.9.79",
+    "nvidia-cuda-cupti-cu12>=12.9.79",
+    "nvidia-cuda-nvrtc-cu12>=12.9.86",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
