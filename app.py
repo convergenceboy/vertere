@@ -4,9 +4,9 @@ from __future__ import annotations
 
 import gradio as gr
 
-from extract import ALL_INPUT_EXTS
-from routing import process
-from tts import ENGINE_NAMES, KOKORO_VOICES
+from old.vertere.extract import ALL_INPUT_EXTS
+from old.vertere.routing import process
+from old.vertere.tts import ENGINE_NAMES, KOKORO_VOICES
 
 ACCEPTED_EXTENSIONS = sorted(ALL_INPUT_EXTS)
 
